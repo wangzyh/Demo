@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation 多帧动画</title>
+    <style>
+        .box{
+            width:100px;
+            height:100px;
+            background-color:deepskyblue;
+            margin:50px auto 0 ;
+            animation:moveing 1s ease 1s both;
+        }
+        @keyframes moveing{
+            0%{
+                transform:translateY(0px);
+            }
+            20%{
+                transform:translateY(0px);
+            }
+            50%{
+                transform:translateY(400px);
+                background-color:deepskyblue;
+                border-radius: 0px;
+            }
+            100%{
+                transform:translateY(0px);
+                background-color:steelblue;
+                border-radius: 50px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>变量函数预解析</title>
+    <script type="text/javascript">
+
+        alert(a);// 弹出underfined
+
+        // alert(c); 报错 c没声明
+
+        var a = 123;
+
+        myalert();// 弹出hello!
+
+        function myalert() {
+            alert('hello!')
+        }
+
+
+        // myalert();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jqueryUI</title>
+	<script src="jquery-1.12.4.min.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script>
+		$(function(){
+
+			$('.box').draggable({
+
+				// 约束拖动方向
+				axis:'x',
+
+				// 约束元素在父级内拖动
+				containment:'parent',
+
+				opacity:0.5,
+
+				drag:function(ev,ui){
+					console.log(ui.position.left);
+				}
+			});
+		});
+	</script>
+	<style>
+		.con{
+			width:300px;
+			height:300px;
+			border: 1px solid #000;
+			margin:50px auto 0;
+		}
+		.box{
+			width:40px;
+			height:40px;
+			background-color:gold;
+			cursor:pointer;
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="con">
+		<div class="box"></div>
+	</div>
+</body>
+</html>

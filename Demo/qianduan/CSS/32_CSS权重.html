@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css权重</title>
+    <style>
+        /*
+        权重值10000+1
+        div{
+            color:red!important;
+        }*/
+
+        /*
+        权重值100
+        #box{
+            color:blue;
+        }*/
+
+        body .texts{
+            color:orangered;
+        }
+        #body1 .texts2{
+            color:yellow;
+        }
+    </style>
+</head>
+<body id="body1">
+    <!--行间样式 style="color:pink" 权重值：1000-->
+    <div id="box"  class="texts texts2">这是一个div元素</div>
+</body>
+</html>
