@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2985a819-7045-47aa-bc4f-b2c9d8a940e3" name="默认的" comment="默认的" />
+    <list default="true" id="2985a819-7045-47aa-bc4f-b2c9d8a940e3" name="默认的" comment="默认的">
+      <change beforePath="$PROJECT_DIR$/.idea/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/datingTestSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/k-近邻算法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/kNN.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/machinelearninginaction" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/datingTestSet.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch11/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch11/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch15/myout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch15/myout.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +28,10 @@
     <SUITE FILE_PATH="coverage/Demo$menu.coverage" NAME="menu Coverage Results" MODIFIED="1524111857090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
     <SUITE FILE_PATH="coverage/Demo$tkinterDemo1.coverage" NAME="tkinterDemo1 Coverage Results" MODIFIED="1524111888128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
     <SUITE FILE_PATH="coverage/Demo$toolbar.coverage" NAME="toolbar Coverage Results" MODIFIED="1524111908706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
-    <SUITE FILE_PATH="coverage/Demo$.coverage" NAME="界面 Coverage Results" MODIFIED="1513957228133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/Study/毕设" />
+    <SUITE FILE_PATH="coverage/Demo$.coverage" NAME="界面 Coverage Results" MODIFIED="1513957228133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Study/毕设" />
     <SUITE FILE_PATH="coverage/Demo$toplevel.coverage" NAME="toplevel Coverage Results" MODIFIED="1524111914751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
     <SUITE FILE_PATH="coverage/Demo$spider.coverage" NAME="spider Coverage Results" MODIFIED="1524112017713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/TBmeishi" />
-    <SUITE FILE_PATH="coverage/Demo$test.coverage" NAME="test Coverage Results" MODIFIED="1513956870162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/Study/毕设" />
+    <SUITE FILE_PATH="coverage/Demo$test.coverage" NAME="test Coverage Results" MODIFIED="1513956870162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Study/毕设" />
     <SUITE FILE_PATH="coverage/Demo$statusbar.coverage" NAME="statusbar Coverage Results" MODIFIED="1524111873311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
     <SUITE FILE_PATH="coverage/Demo$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1515898706957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习" />
     <SUITE FILE_PATH="coverage/Demo$messagebox.coverage" NAME="messagebox Coverage Results" MODIFIED="1524111866028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
@@ -26,6 +40,7 @@
     <SUITE FILE_PATH="coverage/Demo$tkinterDemo2.coverage" NAME="tkinterDemo2 Coverage Results" MODIFIED="1524111902314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
     <SUITE FILE_PATH="coverage/Demo$Entry.coverage" NAME="Entry获得输入 Coverage Results" MODIFIED="1524111579384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
     <SUITE FILE_PATH="coverage/Demo$grid.coverage" NAME="grid表单布局 Coverage Results" MODIFIED="1524111931843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter编程" />
+    <SUITE FILE_PATH="coverage/Demo$AllElectronics.coverage" NAME="AllElectronics Coverage Results" MODIFIED="1525185060201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/DeepLearning" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -44,13 +59,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AllElectronics.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/model_selection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/metrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playML/KNN.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,15 +102,12 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Demo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/生成器.py" />
-        <option value="$PROJECT_DIR$/类装饰器.py" />
-        <option value="$PROJECT_DIR$/tsTserv3-TCP客户端.py" />
         <option value="$PROJECT_DIR$/tsTserv3-TCP时间戳服务器.py" />
         <option value="$PROJECT_DIR$/元类-metaclass.py" />
         <option value="$PROJECT_DIR$/属性拦截器-getattribute.py" />
@@ -96,8 +126,8 @@
         <option value="$PROJECT_DIR$/tkinter编程/statusbar.py" />
         <option value="$PROJECT_DIR$/01-给对象添加属性.py" />
         <option value="$PROJECT_DIR$/getattr_Demo.py" />
-        <option value="F:/Study/毕设/test.py" />
-        <option value="F:/Study/毕设/界面.py" />
+        <option value="$PROJECT_DIR$/../Study/毕设/test.py" />
+        <option value="$PROJECT_DIR$/../Study/毕设/界面.py" />
         <option value="$PROJECT_DIR$/HTML编程/11_简历布局.html" />
         <option value="$PROJECT_DIR$/HTML编程/12_表单.html" />
         <option value="$PROJECT_DIR$/HTML编程/13_内嵌框架.html" />
@@ -116,40 +146,49 @@
         <option value="$PROJECT_DIR$/DeepLearning/numeric.py" />
         <option value="$PROJECT_DIR$/DeepLearning/sklearn.py" />
         <option value="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py" />
+        <option value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/exchange_rate.py" />
+        <option value="$PROJECT_DIR$/Demo/Face_recognition/Face_recognition1.py" />
+        <option value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/pentagram.py" />
+        <option value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/fractal_tree.py" />
+        <option value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/bmr.py" />
+        <option value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/52week.py" />
+        <option value="$PROJECT_DIR$/Demo/Mathine Learing/KNN_classify.py" />
+        <option value="$PROJECT_DIR$/Demo/Mathine Learing/KNN.py" />
+        <option value="$PROJECT_DIR$/Demo/MathineLearing/KNN.py" />
+        <option value="$PROJECT_DIR$/Demo/MathineLearing/model_selection.py" />
+        <option value="$PROJECT_DIR$/playML/metrice.py" />
+        <option value="$PROJECT_DIR$/playML/KNN.py" />
+        <option value="$PROJECT_DIR$/Demo/基础编程/cmd_test.py" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="14" />
-    <option name="width" value="962" />
-    <option name="height" value="727" />
+    <option name="x" value="353" />
+    <option name="y" value="65" />
+    <option name="width" value="1143" />
+    <option name="height" value="914" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Demo\playML" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Demo\venv" />
       <recent name="F:\Demo" />
@@ -167,8 +206,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.spider">
-    <configuration name="爬取淘宝图片" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cmd_test">
+    <configuration name="52week" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,56 +215,21 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Study/Python/Python爬虫/Demo" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Study/Python/Python爬虫/Demo/爬取淘宝图片.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="界面" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="F:/Study/毕设" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Demo" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:/Study/毕设/界面.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="grid表单布局" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter编程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter编程/grid表单布局.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/52week.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration name="spider" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="KNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,16 +237,85 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/TBmeishi" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/MathineLearing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/TBmeishi/spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/MathineLearing/KNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cmd_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/基础编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/基础编程/cmd_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="fractal_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/fractal_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pentagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Demo/xiaoxiangkecheng/pentagram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="statusbar" type="PythonConfigurationType" factoryName="Python">
       <module name="Demo" />
@@ -262,78 +335,25 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="tkinterDemo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter编程/tkinterDemo2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="toolbar" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter编程/toolbar.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="toplevel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tkinter编程" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tkinter编程/toplevel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.statusbar" />
-      <item itemvalue="Python.爬取淘宝图片" />
-      <item itemvalue="Python.tkinterDemo2" />
-      <item itemvalue="Python.toolbar" />
-      <item itemvalue="Python.grid表单布局" />
-      <item itemvalue="Python.spider" />
+      <item itemvalue="Python.pentagram" />
+      <item itemvalue="Python.fractal_tree" />
+      <item itemvalue="Python.52week" />
+      <item itemvalue="Python.KNN" />
+      <item itemvalue="Python.cmd_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.spider" />
-        <item itemvalue="Python.grid表单布局" />
-        <item itemvalue="Python.toolbar" />
-        <item itemvalue="Python.tkinterDemo2" />
+        <item itemvalue="Python.cmd_test" />
+        <item itemvalue="Python.KNN" />
+        <item itemvalue="Python.52week" />
+        <item itemvalue="Python.fractal_tree" />
+        <item itemvalue="Python.pentagram" />
       </list>
     </recent_temporary>
   </component>
@@ -347,61 +367,92 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510123358604</updated>
+      <workItem from="1555080935360" duration="2296000" />
+      <workItem from="1555083523697" duration="385000" />
+      <workItem from="1555153222418" duration="2223000" />
+      <workItem from="1555337425386" duration="3740000" />
+      <workItem from="1555423835395" duration="2517000" />
+      <workItem from="1555502143420" duration="2048000" />
+      <workItem from="1555593617208" duration="1913000" />
+      <workItem from="1555682902852" duration="1507000" />
+      <workItem from="1555716320750" duration="583000" />
+      <workItem from="1555939831606" duration="585000" />
+      <workItem from="1556544749122" duration="2782000" />
+      <workItem from="1556763120249" duration="1910000" />
+      <workItem from="1556953293247" duration="4386000" />
+      <workItem from="1557059723992" duration="3957000" />
+      <workItem from="1557231423725" duration="3197000" />
+      <workItem from="1557407258009" duration="1361000" />
+      <workItem from="1557927827804" duration="4072000" />
+      <workItem from="1558749643193" duration="1837000" />
+      <workItem from="1559466813914" duration="170000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41469000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="320" y="26" width="962" height="727" extended-state="0" />
+    <frame x="323" y="99" width="1143" height="914" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.329582" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.60771704" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35084745" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.7106109" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24057649" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29484305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24870466" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4112426" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39940828" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3293718" />
+      <window_info anchor="bottom" id="运行" order="7" weight="0.26962963" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49889135" weight="0.4275148" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50110865" side_tool="true" weight="0.582343" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32692307" />
+      <window_info anchor="bottom" id="调试" order="11" weight="0.32841328" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.328594" />
+      <window_info anchor="bottom" id="Python Console" order="15" weight="0.51035506" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="运行" order="7" weight="0.26962963" />
-      <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="调试" order="7" weight="0.32841328" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="9" weight="0.328594" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Data View" order="4" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" anchor="bottom" id="运行" order="12" visible="true" weight="0.26527572" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info active="true" anchor="bottom" id="运行" order="12" visible="true" weight="0.26527572" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="调试" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Data View" order="3" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,64 +460,29 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myShow1" value="true" />
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/machinelearninginaction" />
     </ignored-roots>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="1" />
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Demo$exchange_rate.coverage" NAME="exchange_rate Coverage Results" MODIFIED="1555083901780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
+    <SUITE FILE_PATH="coverage/Demo$pentagram.coverage" NAME="pentagram Coverage Results" MODIFIED="1555424100847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
+    <SUITE FILE_PATH="coverage/Demo$fractal_tree.coverage" NAME="fractal_tree Coverage Results" MODIFIED="1555426565507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
+    <SUITE FILE_PATH="coverage/Demo$cmd_test.coverage" NAME="cmd_test Coverage Results" MODIFIED="1557934009633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/基础编程" />
+    <SUITE FILE_PATH="coverage/Demo$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1556549890925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/MathineLearing" />
+    <SUITE FILE_PATH="coverage/Demo$52week.coverage" NAME="52week Coverage Results" MODIFIED="1555594850463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-181045577/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/元类-metaclass.py" />
-    <entry file="file://$PROJECT_DIR$/属性拦截器-getattribute.py" />
-    <entry file="file://$PROJECT_DIR$/01-fork.py" />
-    <entry file="file://$USER_HOME$/Desktop/test1.py" />
-    <entry file="file://$USER_HOME$/Desktop/01-线程.py" />
-    <entry file="file://$USER_HOME$/Desktop/test1 - 副本.py" />
-    <entry file="file://$USER_HOME$/Desktop/10-f.py" />
-    <entry file="file://$PROJECT_DIR$/tkinterDemo1.py" />
-    <entry file="file://$PROJECT_DIR$/tkinterDemo2.py" />
-    <entry file="file://$PROJECT_DIR$/getattr_Demo.py" />
     <entry file="file://$PROJECT_DIR$/01-给对象添加属性.py" />
-    <entry file="file://F:/Study/Python/Python爬虫/Demo/CrawBaiduStocksB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1201" />
-      </provider>
-    </entry>
-    <entry file="file://F:/Study/Python/Python爬虫/Demo/淘宝页面商品爬取.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://F:/Study/Python/Python爬虫/Demo/爬取淘宝图片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Study/Python/Python爬虫/Demo/CrawBaiduStocksB.py" />
+    <entry file="file://$PROJECT_DIR$/../Study/Python/Python爬虫/Demo/淘宝页面商品爬取.py" />
+    <entry file="file://$PROJECT_DIR$/../Study/Python/Python爬虫/Demo/爬取淘宝图片.py" />
     <entry file="file://$PROJECT_DIR$/venv/mysql编程_2.py" />
-    <entry file="file://F:/Study/毕设/淘宝页面商品爬取.py" />
-    <entry file="file://F:/Study/毕设/test.py" />
-    <entry file="file://F:/Study/毕设/界面.py" />
+    <entry file="file://$PROJECT_DIR$/../Study/毕设/淘宝页面商品爬取.py" />
+    <entry file="file://$PROJECT_DIR$/../Study/毕设/test.py" />
+    <entry file="file://$PROJECT_DIR$/../Study/毕设/界面.py" />
     <entry file="file://$PROJECT_DIR$/HTML编程/11_简历布局.html" />
     <entry file="file://$PROJECT_DIR$/HTML编程/12_表单.html" />
     <entry file="file://$PROJECT_DIR$/HTML编程/13_内嵌框架.html" />
@@ -478,7 +494,7 @@
     <entry file="file://$PROJECT_DIR$/前端/CSS/10_css选择器.html" />
     <entry file="file://$PROJECT_DIR$/前端/CSS/11_简历布局.html" />
     <entry file="file://$PROJECT_DIR$/机器学习/kNN.py" />
-    <entry file="file://F:/前端知识点.txt" />
+    <entry file="file://$PROJECT_DIR$/../前端知识点.txt" />
     <entry file="file://$PROJECT_DIR$/tkinter编程/Entry获得输入.py" />
     <entry file="file://$PROJECT_DIR$/tkinter编程/event.py" />
     <entry file="file://$PROJECT_DIR$/tkinter编程/tkinterDemo1.py" />
@@ -496,10 +512,108 @@
     <entry file="file://$PROJECT_DIR$/DeepLearning/sklearn.py" />
     <entry file="file://$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Face_recognition/Face_recognition1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/Mathine Learing/KNN.py" />
+    <entry file="file://$PROJECT_DIR$/Demo/test1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/xiaoxiangkecheng/52week.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/xiaoxiangkecheng/bmr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/xiaoxiangkecheng/fractal_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/xiaoxiangkecheng/pentagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/xiaoxiangkecheng/exchange_rate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/MathineLearing/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#75#118#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/MathineLearing/model_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/基础编程/cmd_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1024">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/model_selection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
