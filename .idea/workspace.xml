@@ -2,15 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2985a819-7045-47aa-bc4f-b2c9d8a940e3" name="默认的" comment="默认的">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Data-Loading-and-Simple-Data-Exploring-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Feature-Scaling-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Grid-Search-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Hyper-Parameter-K-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Hyper-Parameters-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/K近邻算法-KNN-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Linear Regression-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Scaler-In-Scikit-Learn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/matplotlib基础-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/numpy-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/pandas_test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/train_test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data-Loading-and-Simple-Data-Exploring.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Face_recognition/Face_recognition1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/MathineLearing/KNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/MathineLearing/model_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/52week.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/bmr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/exchange_rate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/fractal_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/pentagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/基础编程/cmd_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Feature-Scaling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grid-Search.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hyper-Parameter-K.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hyper-Parameters.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/K近邻算法-KNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linear Regression.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scaler-In-Scikit-Learn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/harrypotter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/news.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/surnames.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/titanic.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tumors.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tumors_reduced.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/.ipynb_checkpoints/136. Single Number-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/136. Single Number.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matplotlib基础.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numpy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pandas_test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/KNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/model_selection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practicalAI" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_test.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/datingTestSet.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/k-近邻算法.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/datingTestSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/datingTestSet.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/k-近邻算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/k-近邻算法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/kNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/machinelearninginaction" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/datingTestSet.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/kNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" afterDir="false" />
@@ -80,11 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playML/KNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -162,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="353" />
     <option name="y" value="65" />
     <option name="width" value="1143" />
@@ -183,6 +228,9 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -385,12 +433,12 @@
       <workItem from="1557407258009" duration="1361000" />
       <workItem from="1557927827804" duration="4072000" />
       <workItem from="1558749643193" duration="1837000" />
-      <workItem from="1559466813914" duration="170000" />
+      <workItem from="1559466813914" duration="877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41469000" />
+    <option name="totallyTimeSpent" value="42176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,7 +450,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="323" y="99" width="1143" height="914" extended-state="0" />
+    <frame x="353" y="65" width="1143" height="914" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.29484305" />
@@ -610,11 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playML/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>

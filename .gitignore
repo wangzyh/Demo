@@ -1,0 +1,12 @@
+# Log Files
+*.log
+
+# Intellij
+*.iml
+*/*.iml
+
+*/.idea/
+.idea/
+*.bak
+*.tem
+*.temp
