@@ -10,3 +10,4 @@
 *.bak
 *.tem
 *.temp
+*.ipynb_checkpoints
