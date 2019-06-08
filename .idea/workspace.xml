@@ -2,63 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2985a819-7045-47aa-bc4f-b2c9d8a940e3" name="默认的" comment="默认的">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Data-Loading-and-Simple-Data-Exploring-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Feature-Scaling-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Grid-Search-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Hyper-Parameter-K-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Hyper-Parameters-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/K近邻算法-KNN-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Linear Regression-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Scaler-In-Scikit-Learn-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/matplotlib基础-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/numpy-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/pandas_test-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/train_test-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data-Loading-and-Simple-Data-Exploring.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/Face_recognition/Face_recognition1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/MathineLearing/KNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/MathineLearing/model_selection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/52week.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/bmr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/exchange_rate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/fractal_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/xiaoxiangkecheng/pentagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo/基础编程/cmd_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Feature-Scaling.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grid-Search.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hyper-Parameter-K.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hyper-Parameters.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K近邻算法-KNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linear Regression.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scaler-In-Scikit-Learn.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/harrypotter.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/news.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/surnames.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/titanic.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tumors.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tumors_reduced.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/.ipynb_checkpoints/136. Single Number-checkpoint.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/136. Single Number.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matplotlib基础.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas_test.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playML/KNN.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playML/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playML/metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/playML/model_selection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practicalAI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/SimpleLinearRegression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playML/preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/DeepLearning/AllElectronics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/datingTestSet.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/datingTestSet.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/k-近邻算法.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/k-近邻算法.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/kNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo/Mathine Learing/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/datingTestSet.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch02/kNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MathineLearing/machinelearninginaction/Ch07/EXTRAS/simpleDataPlot.py" afterDir="false" />
@@ -110,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playML/model_selection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="44">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
@@ -119,17 +66,51 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playML/metrics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="176">
               <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playML/KNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="132">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playML/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/playML/SimpleLinearRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+              <folding>
+                <element signature="e#57#1360#0" />
+                <element signature="e#85#167#0" />
+                <element signature="e#214#826#0" />
+                <element signature="e#665#734#0" />
+                <element signature="e#870#1163#0" />
+                <element signature="e#1207#1292#0" />
+                <element signature="e#1326#1360#0" />
+                <element signature="e#1427#1509#0" />
+                <element signature="e#1556#2125#0" />
+                <element signature="e#2169#2462#0" />
+                <element signature="e#2506#2591#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tsTserv3-TCP时间戳服务器.py" />
-        <option value="$PROJECT_DIR$/元类-metaclass.py" />
         <option value="$PROJECT_DIR$/属性拦截器-getattribute.py" />
         <option value="$PROJECT_DIR$/01-fork.py" />
         <option value="$USER_HOME$/Desktop/01-线程.py" />
@@ -204,22 +183,44 @@
         <option value="$PROJECT_DIR$/playML/metrice.py" />
         <option value="$PROJECT_DIR$/playML/KNN.py" />
         <option value="$PROJECT_DIR$/Demo/基础编程/cmd_test.py" />
+        <option value="$PROJECT_DIR$/playML/preprocessing.py" />
+        <option value="$PROJECT_DIR$/playML/SimpleLinearRegression.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="353" />
-    <option name="y" value="65" />
-    <option name="width" value="1143" />
-    <option name="height" value="914" />
+    <option name="x" value="129" />
+    <option name="y" value="88" />
+    <option name="width" value="1063" />
+    <option name="height" value="866" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <showMembers ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Demo" type="462c0819:PsiDirectoryNode" />
+              <item name="playML" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -229,9 +230,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -433,12 +437,15 @@
       <workItem from="1557407258009" duration="1361000" />
       <workItem from="1557927827804" duration="4072000" />
       <workItem from="1558749643193" duration="1837000" />
-      <workItem from="1559466813914" duration="877000" />
+      <workItem from="1559466813914" duration="3008000" />
+      <workItem from="1559654979262" duration="2479000" />
+      <workItem from="1559735828864" duration="1167000" />
+      <workItem from="1559745838496" duration="159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42176000" />
+    <option name="totallyTimeSpent" value="48112000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,10 +457,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="65" width="1143" height="914" extended-state="1" />
+    <frame x="677" y="81" width="1063" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.29484305" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.29411766" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24870466" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32923076" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -523,9 +530,6 @@
     <SUITE FILE_PATH="coverage/Demo$52week.coverage" NAME="52week Coverage Results" MODIFIED="1555594850463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Demo/xiaoxiangkecheng" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-给对象添加属性.py" />
-    <entry file="file://$PROJECT_DIR$/../Study/Python/Python爬虫/Demo/CrawBaiduStocksB.py" />
-    <entry file="file://$PROJECT_DIR$/../Study/Python/Python爬虫/Demo/淘宝页面商品爬取.py" />
     <entry file="file://$PROJECT_DIR$/../Study/Python/Python爬虫/Demo/爬取淘宝图片.py" />
     <entry file="file://$PROJECT_DIR$/venv/mysql编程_2.py" />
     <entry file="file://$PROJECT_DIR$/../Study/毕设/淘宝页面商品爬取.py" />
@@ -642,24 +646,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore.bak" />
     <entry file="file://$PROJECT_DIR$/playML/model_selection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="44">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playML/metrics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="176">
           <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/playML/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="132">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playML/SimpleLinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#57#1360#0" />
+            <element signature="e#85#167#0" />
+            <element signature="e#214#826#0" />
+            <element signature="e#665#734#0" />
+            <element signature="e#870#1163#0" />
+            <element signature="e#1207#1292#0" />
+            <element signature="e#1326#1360#0" />
+            <element signature="e#1427#1509#0" />
+            <element signature="e#1556#2125#0" />
+            <element signature="e#2169#2462#0" />
+            <element signature="e#2506#2591#0" />
+          </folding>
         </state>
       </provider>
     </entry>
