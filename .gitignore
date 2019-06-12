@@ -6,7 +6,7 @@
 */*.iml
 
 */.idea/
-.idea
+/.idea/
 .idea/*
 *.bak
 *.tem
