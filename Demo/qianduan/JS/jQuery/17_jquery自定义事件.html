@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery自定义事件</title>
+	<script src="jquery-1.12.4.min.js"></script>
+	<script>
+		$(function() {
+			
+			/*$('#btn').click(function(){
+
+			});*/
+
+			$('#btn').bind('hello',function(){
+				alert('hello!');
+			});
+
+			$('#btn2').click(function(){
+				$('#btn').trigger('hello');
+			})
+		})
+	</script>
+</head>
+<body>
+	<input type="button" value="按钮" id="btn">
+	<input type="button" value="按钮2" id="btn2">
+</body>
+</html>

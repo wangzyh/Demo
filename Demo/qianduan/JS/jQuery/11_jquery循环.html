@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>循环</title>
+	<script src="jquery-1.12.4.min.js"></script>
+	<script>
+		$(function(){
+			// $('.list li').html('111');
+
+			// index是索引值 传的第一个参数就是 索引值
+			$('.list li').each(function(index){
+				// alert(index);
+				
+				$(this).html(index);
+			})
+		})
+	</script>
+</head>
+<body>
+	<ul class="list">
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--meta:vp-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>流体布局</title>
+    <style>
+        body,ul{
+            margin:0;
+            padding:0;
+        }
+        ul{
+            list-style: none;
+        }
+        .menu{
+            height:50px;
+        }
+        .menu li{
+            /*第一种解决宽度超过的方法 width:calc(25% - 4px);*/
+            width:25%;
+            height:50px;
+            text-align: center;
+            line-height: 50px;
+            float:left;
+            background-color: deepskyblue;
+            border:2px solid #000;
+            /*第二种解决宽度超过的方法
+            box-sizing: border-box;*/
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="">菜单文字</a></li>
+        <li><a href="">新闻标题</a></li>
+        <li><a href="">世界杯赛</a></li>
+        <li><a href="">红葡萄酒</a></li>
+    </ul>
+</body>
+</html>

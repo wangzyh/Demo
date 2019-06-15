@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initia
+	l-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>定时器动画</title>
+	<style>
+		.box{
+			width:100px;
+			height:100px;
+			background-color:deepskyblue;
+			position:fixed;
+			left:20px;
+			top:20px;
+		}
+	</style>
+	<script type="text/javascript">
+		window.onload = function () {
+			var oBox = document.getElementById('box');
+
+			var left = 20;
+			var timer = setInterval(function () {
+				left+=2;
+
+				oBox.style.left = left + 'px';
+
+				if(left>700){
+					clearInterval(timer);
+				}
+			},30)
+
+
+		}
+	</script>
+</head>
+<body>
+	<div class="box" id="box"></div>
+</body>
+</html>

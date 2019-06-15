@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS操作属性</title>
+    <script type="text/javascript">
+
+        //当整个文档加载完后,再执行后面的语句
+        window.onload = function () {
+
+            var oDic = document.getElementById('div1');
+            oDic.title = "看到了！";
+
+            var oA = document.getElementById('link1');
+            oA.href = "http://www.baidu.com";
+            oA.title = "百度网";
+
+            alert(oA.id);
+        }
+
+
+    </script>
+</head>
+<body>
+    <div id="div1" class="div1" title="这是div元素,看到了吗?">这是一个div元素</div>
+    <a href="#" id="link1">百度一下</a>
+
+</body>
+</html>

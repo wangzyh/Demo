@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>样式</title>
+	<script src="jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+
+		$(function() {
+
+			// 读取样式 读取
+			alert( $('.div1').css('fontSize'));
+
+			// 设置样式 写入
+			$('.div1').css({background:'red'});
+
+			$('.div1').addClass('big');
+
+			$('.div1').removeClass('big');
+		});
+	</script>
+	<style>
+		.big{
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="div1">这是一个div元素</div>
+</body>
+</html>

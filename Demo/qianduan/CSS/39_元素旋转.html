@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>元素旋转</title>
+    <style>
+        .box{
+            width:300px;
+            height:300px;
+            background-color:deepskyblue;
+            margin:50px auto 0;
+            transition:all 500ms ease;
+            transform-style: preserve-3d;
+            /*解决跳变bug 设置起始旋转角度*/
+            transform:perspective(800px)rotateY(0deg);
+        }
+        .box:hover{
+            /*
+            Z轴旋转
+            transform:rotate(45deg);*/
+
+            /*transform:perspective(800px)rotateX(45deg);*/
+            transform:perspective(800px)rotateY(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
