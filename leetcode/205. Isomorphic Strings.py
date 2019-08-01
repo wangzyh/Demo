@@ -1,5 +1,5 @@
 def main(s, t):
-
+    pass
 
 
 if __name__ == '__main__':
