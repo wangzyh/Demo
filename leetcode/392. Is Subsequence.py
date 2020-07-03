@@ -16,28 +16,30 @@ Return false.
 
 
 def main(s, t):
-    if len(t) < len(s):
-        return False
-    t_l = list(t)
-    count = 0
-    pop_num = 0
+    # my
+    # if len(t) < len(s):
+    #     return False
+    # t_l = list(t)
+    # for i in s[::-1]:
+    #     while True:
+    #         if not t_l or (len(t_l) < len(s)):
+    #             return False
+    #         if i == t_l[-1]:
+    #             t_l.pop(-1)
+    #             break
+    #         t_l.pop(-1)
+    # return True
     for i in s:
-        if i in t_l:
+        try:
+            index_i = t.index(i)
+            t = t[index_i+1:]
+        except:
             return False
-
-        next_count = t_l.index(i) + pop_num
-        if count > next_count:
-            return False
-        count = next_count
-        t_l.pop(next_count)
-        pop_num += 1
     return True
+
 
 
 a = set()
 if __name__ == '__main__':
-    a = main("abc",
-             "ahbgdc"
-
-             )
+    a = main("fdsfsdafffff", "fadsfsdffsadfdsf")
     print(a)
