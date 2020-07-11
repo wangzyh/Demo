@@ -1,5 +1,5 @@
-# 205. Isomorphic Strings
-# 2020/7/11
+# 206. Reverse Linked List
+# 2020/7/6
 
 
 def main():
