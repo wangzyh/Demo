@@ -3,13 +3,12 @@
 
 
 def main(nums):
-    res = 1
-
     nums.sort()
-    for i in range(-1, -4, -1):
-        res *= nums[i]
-
-    return res
+    top = nums[0] * nums[1]
+    end = nums[-2]*nums[-3]
+    if top > end:
+        return top*nums[-1]
+    return nums[-1]*end
 
 
 if __name__ == '__main__':
