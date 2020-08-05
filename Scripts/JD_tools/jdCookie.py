@@ -13,14 +13,14 @@ import time
 过期检查
 """
 
-cookies1={
-'pt_key': 'AAJe-fTRADCT7F6JvMBrYb0m5aJlBphfrHMxTSx3GR7ic8FdqszM7EbnlxB09l9YglaeED2T_2Y',    #cookie参数填写
-'pt_pin': '13693739645_p',
+cookies1 = {
+    'pt_key': 'AAJfBHkfADACNWi1g5TVBZLCwIJOLyRjAUgIqhaNn2iXg42u_WH9KJgOPhCQSMc3uev3d2v5U0g',  # cookie参数填写
+    'pt_pin': '13693739645_p',
 }
 
-cookies2={}   # 如果有其它账号，还需要将cookies2填写进 下面的cookieLists
+cookies2 = {}  # 如果有其它账号，还需要将cookies2填写进 下面的cookieLists
 
-cookiesLists=[cookies1,]  #多账号准备
+cookiesLists = [cookies1, ]  # 多账号准备
 
 
 def valid(cookies):
@@ -45,11 +45,12 @@ def valid(cookies):
         return False
     return True
 
+
 def get_cookies():
     return [i for i in cookiesLists if valid(i)]
 
 
 # get_cookies()
-print("***"*20)
-print("***"*20)
+print("***" * 20)
+print("***" * 20)
 print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))

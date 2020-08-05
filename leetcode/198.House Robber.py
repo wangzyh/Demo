@@ -45,8 +45,37 @@
 # leetcode submit region begin(Prohibit modification and deletion)
 class Solution:
     def rob(self, nums) -> int:
-        max_money = max(sum(nums[::2]), sum(nums[1::2]))
-        return max_money
+        if len(nums) <= 1:
+            return 0 if nums == [] else nums[1]
+        first = nums[0]
+        two = nums[1]
+        lens = len(nums)
+        temp_f = 0
+        temp_t = 0
+
+        for i in range(2, lens, 1):
+            for j in range(i + 2, lens, 1):
+                if i + 1 >= lens:
+                    temp_f = nums[i]
+                elif i + 2 >= lens:
+                    temp_f += nums[i]
+                    temp_t += nums[i+1]
+                elif i + 3 >= lens:
+                    temp_f += (nums[i] + nums[i+2])
+                    temp_t += nums[i + 1]
+                elif i + 4 >= lens:
+                    temp_f += (nums[i] + nums[i+2])
+                    temp_t += (nums[i +1] + nums[i+3])
+                if temp_f > temp_t:
+
+                if nums[i] + nums[i+2] > (nums[i +1] + nums[i+3]):
+                    temp_f = temp_f + nums[i] + nums[i+2]
+                else:
+                    temp_f = temp_f + nums[i +1] + nums[i+3]
+                elif i +2
+                temp_f += nums[i]
+        print(temp_f)
+
 
 
 # leetcode submit region end(Prohibit modification and deletion)
