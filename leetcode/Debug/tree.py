@@ -1,4 +1,7 @@
 # Definition for a binary tree node.
+from queue import Queue
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
@@ -74,24 +77,58 @@ def prettyPrintTree(node, prefix="", isLeft=True):
         prettyPrintTree(node.left, prefix + ("    " if isLeft else "│   "), True)
 
 
-class Solution:
-    def maxDepth(self, root: TreeNode) -> int:
-        depth = 0
-        p = root
-        while True:
-            if root:
-                depth += 1
-                if root.left:
-                    depth += 1
-                    root = root.left
-                if not root.left:
-                    root = root.right
-                if not root.right:
-                    root = root
-                print(root.val)
-                root = root.left
+def traverse(root: TreeNode):
+    if root:
+        traverse(root.left)
+        traverse(root.right)
+        print(root.val)
 
-        return depth
+
+def in_order_traversal(root: TreeNode):
+    t = root
+    s = []
+    while t or s:
+        while t:
+            s.append(t)
+            print(t.val)  # 前序
+            t = t.left
+        if s:
+            t = s[-1]
+            s.pop(-1)  # 中序
+            # print(t.val)  # 中序
+            t = t.right
+
+
+def level_order_traversal(root: TreeNode):
+    if not root:
+        return
+    q = Queue()
+    q.put(root)
+    while not q.empty():
+        t = q.get()
+        print(t.val)
+        if t.left:
+            q.put(t.left)
+        if t.right:
+            q.put(t.right)
+
+
+def get_height(root: TreeNode):
+    if root:
+        hl = get_height(root.left)
+        hr = get_height(root.right)
+        maxh = max(hl, hr)
+        return maxh + 1
+    else:
+        return 0
+
+
+def isSameTree(root):
+    pass
+
+
+# [3,9,20,null,null,15,7]
+# [3,9,20,1,null,15,7,1,1]
 
 def main():
     import sys
@@ -104,13 +141,13 @@ def main():
     while True:
         try:
             line = next(lines)
+            print(line)
             node = stringToTreeNode(line)
             prettyPrintTree(node)
 
-            ret = Solution().maxDepth(node)
+            res = isSameTree(node)
+            print(str(res))
 
-            out = str(ret)
-            print(out)
         except StopIteration:
             break
 
