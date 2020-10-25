@@ -3,6 +3,7 @@ import json
 import requests
 import time
 import notification
+import jdShareCodes
 """
 1、从jdCookie.py处填写 cookie
 2、shareCode 为自己的助力码，但是需要别人为自己助力
@@ -20,10 +21,13 @@ shareCodes = ["c081c648576e4e61a9697c3981705826",
               "f1d0d5ebda7c48c6b3d262d5574315c7",
               "13d13188218a4e3aae0c4db803c81985"]
 
+if jdShareCodes.shareCodes_farm:
+    shareCodes = jdShareCodes.shareCodes_farm
+print("实际执行的助力码: ",shareCodes)
 
 def postTemplate(cookies, functionId, body):
     headers = {
-        'User-Agent': 'JD4iPhone/167249 (iPhone; iOS 13.5.1; Scale/3.00)',
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
         'Host': 'api.m.jd.com',
         'Content-Type': 'application/x-www-form-urlencoded',
     }
@@ -42,7 +46,7 @@ def postTemplate(cookies, functionId, body):
 
 def getTemplate(cookies, functionId, body):
     headers = {
-        'User-Agent': 'JD4iPhone/167249 (iPhone; iOS 13.5.1; Scale/3.00)',
+        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
         'Host': 'api.m.jd.com',
     }
     body["version"] = 4
@@ -57,7 +61,15 @@ def getTemplate(cookies, functionId, body):
                             headers=headers, params=params, cookies=cookies)
     return response.json()
 
-
+def duck(cookies):
+    print("\n【小鸭子】")
+    for _ in range(4):
+        result = postTemplate(cookies, "getFullCollectionReward", {"type": 2,"version":6})
+        print(result)
+        if result["code"]=="10" or result["hasLimit"]:
+            print(">>>小鸭子游戏达到上限,跳出")
+            return
+          
 def luck(cookies):
     print("\n【随机水滴】")
     result = postTemplate(cookies, "gotWaterGoalTaskForFarm", {"type": 3})
@@ -334,6 +346,7 @@ for cookies in jdCookie.get_cookies():
     treeEnergy = result["farmUserPro"]["treeEnergy"]
     lastTimes = int((result["farmUserPro"]["treeTotalEnergy"]-treeEnergy)/10)
     print(f"""\n\n[ {nickName} ]\n{result["farmUserPro"]["name"]}""")
+    print(f'已经薅了{result["farmUserPro"]["winTimes"]}次')
     print(f"""我的助力码: {myshareCode}""")
     print(
         f"""treeEnergy: {treeEnergy}/{result["farmUserPro"]["treeTotalEnergy"]}""")
@@ -344,6 +357,7 @@ for cookies in jdCookie.get_cookies():
     totalWaterTaskTimes = takeTask(cookies)
     masterHelp(cookies)
     luck(cookies)
+    duck(cookies)
     friends(cookies)
     bag(cookies)
     water(cookies, totalWaterTaskTimes,

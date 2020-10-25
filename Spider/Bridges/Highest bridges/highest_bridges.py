@@ -1,8 +1,10 @@
 import csv
 import os
 import time
+import logging
 
 from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.expected_conditions import presence_of_element_located as loads
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,6 +12,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from Spider.setting import CHROME_DRIVER, DATA_FILE
 
 root = 'http://www.highestbridges.com/wiki/index.php?title=List_of_Highest_International_Bridges'
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
 
 
 class HighestBridges:
@@ -25,6 +29,7 @@ class HighestBridges:
     def get_data(self):
         title = ['Rank', 'Name', 'Height (meters / feet)', 'Main Span Length (meters / feet)', 'Completed', 'Location',
                  'Country']
+        d = []
         self.csv_write(title)
         for i in range(1):
             url = f'{root}/Page_1'
@@ -34,18 +39,23 @@ class HighestBridges:
             if len(table) <= 1:
                 break
             for t in range(1, len(table)):
-                for i in range(t):
-                    data = []
-                    for j in range(7):
-                        data.append(self.driver.find_element_by_xpath(
-                            f'//*[@id="sortable_table_id_0"]/tbody/tr[{i + 1}]/td[{j + 2}]').text)
-
-                self.csv_write(data)
+                for j in range(7):
+                    try:
+                        d.append(self.driver.find_element_by_xpath(
+                            f'//*[@id="sortable_table_id_0"]/tbody/tr[{t + 1}]/td[{j + 2}]').text.decode('gbk'))
+                    except NoSuchElementException:
+                        break
+                self.csv_write(d)
+                d = []
 
     def csv_write(self, data):
-        with open(self.csv_file, 'w') as f:
+        logger.info(data)
+        with open(self.csv_file, 'a', newline='') as f:
             f_csv = csv.writer(f)
-            f_csv.writerow(data)
+            try:
+                f_csv.writerow(data)
+            except UnicodeEncodeError:
+                print(data)
 
     def quit(self):
         self.driver.quit()
