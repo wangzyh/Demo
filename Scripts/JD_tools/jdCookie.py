@@ -14,7 +14,7 @@ import time
 """
 
 cookies1 = {
-    'pt_key': 'AAJffzpnADC3-JJvdqNoGEg5HOyr_o_ZkKKmZy0G_In0XrLEI8UeFAJv7LPIsnfW8SKcD-ena28',  # cookie参数填写
+    'pt_key': 'AAJfoV8qADDkFcNW-ZgbrQSzzsYSIwAPIBoVonkgXQfqBI_W0srUsEmEDSPfU2uO2epyVH_k31A',  # cookie参数填写
     'pt_pin': '13693739645_p',
 }
 
