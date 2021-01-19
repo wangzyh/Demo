@@ -57,16 +57,27 @@
 
 # leetcode submit region begin(Prohibit modification and deletion)
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+from Debug.node import stringToListNode
+
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 class Solution:
     def getDecimalValue(self, head: ListNode) -> int:
-        
+        res = ''
+        while head:
+            res += f'{head.val}'
+            head = head.next
+        return int(res, 2)
+
+
 # leetcode submit region end(Prohibit modification and deletion)
 
 
 if __name__ == '__main__':
-    n = ''
-    print(Solution().)
+    n = '[1,0,1]'
+    print(Solution().getDecimalValue(stringToListNode(n)))
