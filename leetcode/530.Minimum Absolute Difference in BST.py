@@ -1,40 +1,39 @@
-# Given a Binary Search Tree (BST) with the root node root, return the minimum d
-# ifference between the values of any two different nodes in the tree. 
+# Given a binary search tree with non-negative values, find the minimum absolute
+#  difference between values of any two nodes. 
 # 
-#  Example : 
+#  Example: 
 # 
 #  
-# Input: root = [4,2,6,1,3,null,null]
-# Output: 1
+# Input:
+# 
+#    1
+#     \
+#      3
+#     /
+#    2
+# 
+# Output:
+# 1
+# 
 # Explanation:
-# Note that root is a TreeNode object, not an array.
+# The minimum absolute difference is 1, which is the difference between 2 and 1 
+# (or between 2 and 3).
+#  
 # 
-# The given tree [4,2,6,1,3,null,null] is represented by the following diagram:
-# 
-#           4
-#         /   \
-#       2      6
-#      / \    
-#     1   3  
-# 
-# while the minimum difference in this tree is 1, it occurs between node 1 and n
-# ode 2, also between node 3 and node 2.
 #  
 # 
 #  Note: 
 # 
 #  
-#  The size of the BST will be between 2 and 100. 
-#  The BST is always valid, each node's value is an integer, and each node's val
-# ue is different. 
-#  This question is the same as 530: https://leetcode.com/problems/minimum-absol
-# ute-difference-in-bst/ 
+#  There are at least two nodes in this BST. 
+#  This question is the same as 783: https://leetcode.com/problems/minimum-dista
+# nce-between-bst-nodes/ 
 #  
-#  Related Topics Tree Recursion 
-#  👍 909 👎 241
+#  Related Topics Tree 
+#  👍 1104 👎 85
 
 # region data
-# 2021-01-28 17:12:45
+# 2021-01-28 15:17:06
 # endregion
 
 # leetcode submit region begin(Prohibit modification and deletion)
@@ -48,7 +47,7 @@ from leetcode.Debug.tree import TreeNode, stringToTreeNode
 
 
 class Solution:
-    def minDiffInBST(self, root: TreeNode) -> int:
+    def getMinimumDifference(self, root: TreeNode) -> int:
         res = []
 
         def get_all_node(root):
