@@ -31,10 +31,10 @@
 # ute-difference-in-bst/ 
 #  
 #  Related Topics Tree Recursion 
-#  👍 847 👎 230
+#  👍 909 👎 241
 
-# region time
-# 2020-12-03 23:51:39
+# region data
+# 2021-01-28 17:12:45
 # endregion
 
 # leetcode submit region begin(Prohibit modification and deletion)
@@ -44,29 +44,28 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from leetcode.Debug.tree import stringToTreeNode
+from leetcode.Debug.tree import TreeNode, stringToTreeNode
 
 
 class Solution:
-    def minDiffInBST(self, root) -> int:
-        res = 10 ** 10
-        if not root:
-            return res
-        top = root.val
-        if root.left:
-            res = min(top - root.val, res)
-            self.minDiffInBST(root.left)
-        if root.right:
-            res = min(root.val - top, res)
-            self.minDiffInBST(root.right)
+    def minDiffInBST(self, root: TreeNode) -> int:
+        res = []
 
-        return res
+        def get_all_node(root):
+            res.append(root.val)
+            if root.left:
+                get_all_node(root.left)
+            if root.right:
+                get_all_node(root.right)
+
+        get_all_node(root)
+        res = sorted(res)
+        return min([res[i] - res[i - 1] for i in range(len(res) - 1, 0, -1)])
 
 
 # leetcode submit region end(Prohibit modification and deletion)
 
 
 if __name__ == '__main__':
-    tree = '[4,2,6,1,3,5,null]'
-    root = stringToTreeNode(tree)
-    print(Solution().minDiffInBST(root))
+    n = '[4,2,6,1,3,null,null]'
+    print(Solution().getMinimumDifference(stringToTreeNode(n)))
