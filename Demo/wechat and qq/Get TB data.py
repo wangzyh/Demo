@@ -63,7 +63,7 @@ class Post_data:
         """
         text = requests.get(url).text
         urls = re.findall(r'<a href="/tao/index.php\?r=(.*?)nav_wrap=p&(.*?)"', text)
-        images = re.findall(r'<img class="img" src="(.*?)" ', text)
+        images = re.findall(r'<Image class="Image" src="(.*?)" ', text)
         for i in range(len(images)):
             logging.info(f'正在抓取第{i}个页面信息')
             url = f'http://www.kumaoke.com/tao/index.php?r={urls[i][0]}nav_wrap=p&{urls[i][1]}'
