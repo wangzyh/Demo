@@ -85,13 +85,10 @@
 2. **namedtuple** 用以构建只有少数属性但是没有方法的对象，比如数据库条目
 3. Python 内置的**complex**类可以用来表示二维向量，但我们这个自定义的类可以扩展到 n 维向量
 4.  - **\_\_repr__()** 字符串表示形式，默认情况下，它会返回当前对象的“类名+object at+内存地址”，而如果对该方法进行重写，可以为其制作自定义的自我描述信息。
-        - \_\_repr__ 和 \_\_str__ 的区别在于，后者是在 str() 函数被使用，或
-            是在用 print 函数打印一个对象的时候才被调用的，并且它返回的字
-            符串对终端用户更友好。
-        - 如果你只想实现这两个特殊方法中的一个，\_\_repr__ 是更好的选择，
-            因为如果一个对象没有 \_\_str__ 函数，而 Python 又需要调用它的时
-            候，解释器会用 \_\_repr__ 作为替代。
-        - Difference between \_\_str__ and \_\_repr__ in Python [Stack Overflow](http://stackoverflow.com/questions/1436703/differencebetween-str-and-repr-in-python) 是 Stack Overflow 上的一个问题 
+        - \_\_repr__ 和 \_\_str__ 的区别在于，后者是在 str() 函数被使用，或是在用 print 函数打印一个对象的时候才被调用的，并且它返回的字符串对终端用户更友好。
+        - 如果你只想实现这两个特殊方法中的一个，\_\_repr__ 是更好的选择，因为如果一个对象没有 \_\_str__ 函数，而 Python 又需要调用它的时候，解释器会用 \_\_repr__ 作为替代。
+        - Difference between \_\_str__ and \_\_repr__ in Python [Stack Overflow](http://stackoverflow.com/questions/1436703/differencebetween-str-and-repr-in-python) 是 Stack Overflow 上的一个问题
+        - 前者方便我们调试和记录日志，后者则是给终端用户看的 
 5. math.**hypot**() 返回欧几里德范数 `sqrt(x\*x + y\*y)`
 6. Python特殊方法 [Data Model](https://docs.python.org/3/reference/datamodel.html) 列出了83 个特殊方法的名字，其中 47 个用于实现算术运算、位运算和比较操作
 7. GIL 的全称是 Global Interpreter Lock(全局解释器锁), 多进程，多线程，进程池
