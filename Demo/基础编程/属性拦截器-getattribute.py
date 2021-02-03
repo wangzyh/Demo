@@ -3,15 +3,15 @@ class Itcast(object):
         self.subject1 = subject1
         self.subject2 = "cpp"
 
-    # 属性访问时拦截器,打log
+    # 属性访问时拦截,打log
     def __getattribute__(self, obj):
         print("----1>%s" % obj)
         if obj == 'subject1':
             print('log subject1')
             return 'reditrct python'
-        else: # 测试时注释掉这两行，将找不到subject2
+        else:  # 测试时注释掉这两行，将找不到subject2
             temp = object.__getattribute__(self, obj)
-            print("----2>%s"%str(temp))
+            print("----2>%s" % str(temp))
             return temp
 
     def show(self):

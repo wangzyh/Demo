@@ -6,7 +6,6 @@ class Graph:
         self.data = None
 
 
-
 def graph_bfs():
     pass
 
