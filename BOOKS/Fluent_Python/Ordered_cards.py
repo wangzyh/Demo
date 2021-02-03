@@ -30,3 +30,33 @@ print(deck[-1])
 from random import choice
 
 print(choice(deck))
+
+# 前三张牌
+print(deck[:3])
+
+# 只看A 第12张 每13个
+print(deck[12::13])
+
+# 实现了 __getitem__ 方法，这一摞牌就变成可迭代的了
+for card in deck:
+    print(card)
+# 反向迭代
+for card in reversed(deck):
+    print(card)
+
+# in 方法
+print(Card('Q', 'hearts') in deck)
+print(Card('7', 'beasts') in deck)
+
+# 排序 ： 用点数来判定扑克牌的大小，2 最小、A 最大；同时还要加上对花色的判定，黑桃最大、红桃次之、方块再次、梅花最小
+suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
+
+
+def spades_high(card):
+    rank_value = FrenchDeck.ranks.index(card.rank)
+    return rank_value * len(suit_values) + suit_values[card.suit]
+
+
+for card in sorted(deck, key=spades_high):
+    print(card)
+

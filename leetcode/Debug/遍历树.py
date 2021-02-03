@@ -12,6 +12,7 @@ def preorder(root):
         preorder(root.right)
 
 
+# 中序
 def midorder(root):
     if root is None:
         return ''
@@ -22,6 +23,7 @@ def midorder(root):
         midorder(root.right)
 
 
+# 后续
 def endorder(root):
     if root is None:
         return ''
