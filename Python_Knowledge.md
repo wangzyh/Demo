@@ -75,6 +75,10 @@
   
   
 # Python
+0. **_Python Built-In modules_**:
+   1. **Itertools**: https://docs.python.org/zh-cn/3/library/itertools.html
+   2. **collections**: https://docs.python.org/zh-cn/3/library/collections.html#module-collections
+
 1. 统计list中重复项个数:
     ```
     nums = [1,2,3,4,5,1,1,1,2,2,3]
@@ -289,7 +293,7 @@
 31. 如果在 a * n 这个语句中，序列 a 里的元素是对其他可变对象的引用的话，你就需要格外注意了，因为这个式子的结果可能
 会出乎意料。比如，你想用 `my_list = [[]] * 3` 来初始化一个由列表组成的列表，但是你得到的列表里包含的 3 个元素其实是 3
 个引用，而且这 3 个引用**指向的都是同一个列表**。这可能不是你想要的效果。
-
+ 
 
 # Django,Flask and Tornado
 1. 
