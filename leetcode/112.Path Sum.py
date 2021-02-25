@@ -48,8 +48,6 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-from typing import List
-
 from tree import TreeNode, stringToTreeNode
 
 
