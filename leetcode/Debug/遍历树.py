@@ -1,7 +1,9 @@
-from tree import stringToTreeNode
+from typing import List
+
+from tree import stringToTreeNode, TreeNode
 
 
-# 前序
+# region 前序
 def preorder(root):
     if root is None:
         return ''
@@ -12,7 +14,9 @@ def preorder(root):
         preorder(root.right)
 
 
-# 中序
+# endregion
+
+# region 中序
 def midorder(root):
     if root is None:
         return ''
@@ -23,7 +27,9 @@ def midorder(root):
         midorder(root.right)
 
 
-# 后续
+# endregion
+
+# region 后续
 def endorder(root):
     if root is None:
         return ''
@@ -34,7 +40,9 @@ def endorder(root):
     print(root.val)
 
 
-# 广度优先
+# endregion
+
+# region 广度优先
 # 根节点 -> 左节点 -> 右节点
 def graorder(root):
     if root is None:
@@ -51,13 +59,28 @@ def graorder(root):
         queue = res
 
 
+# endregion
+
+# region 获取路径
+def get_path(root: TreeNode) -> List:
+    if not root:
+        return []
+    elif not root.left and not root.right:
+        return [root.val]
+    else:
+        ll = get_path(root.left)
+        rl = get_path(root.right)
+        return [[root.val] + ([i] if isinstance(i, int) else i) for i in ll + rl]
+
+
+# endregion
+
+
 if __name__ == '__main__':
     tree = '[4,2,6,1,3,null,null]'
     root = stringToTreeNode(tree)
-    preorder(root)
-    print(111)
-    midorder(root)
-    print(2222)
-    endorder(root)
-    print(333)
-    graorder(root)
+    # preorder(root)
+    # midorder(root)
+    # endorder(root)
+    # graorder(root)
+    print(get_path(root))
