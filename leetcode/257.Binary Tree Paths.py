@@ -19,8 +19,8 @@
 #  Related Topics Tree Depth-first Search 
 #  👍 2377 👎 125
 
-# region time
-# 2021-02-25 21:32:09
+# region data
+# 2021-02-25 16:25:16
 # endregion
 
 # leetcode submit region begin(Prohibit modification and deletion)
@@ -71,5 +71,6 @@ class Solution:
 
 if __name__ == '__main__':
     # n = '[1,2,null,3]'
-    n = '[1,2,3,4,5,6,7,8]'
+    # n = '[1,2,3,4,5,6,7,8]'
+    n = '[1,2,3,4,5,6,7,8,null,null,3,10]'
     print(Solution().binaryTreePaths(stringToTreeNode(n)))
