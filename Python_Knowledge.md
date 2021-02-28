@@ -296,7 +296,54 @@
 32. 蔡勒公式:计算星期的公式
     - 1582年10月4日后：w = y1+(y1/4)+(c/4)-2*c+(26*(m+1)/10)+d-1;
     - 1582年10月4日前：w = y1+y/4+c/4-2*c+13*(m+1)/5+d+2;
-
+33. Python调用C动态链接库<br/>
+    直接打包成so, 再使用python的ctypes调用即可.
+    1. C语言文件：pycall.c
+    2. gcc编译生成动态库libpycall.so：gcc -o libpycall.so -shared -fPIC pycall.c.
+    3. Python调用动态库文件：pycall.py
+    ```
+    import ctypes  
+    ll = ctypes.cdll.LoadLibrary   
+    lib = ll("./libpycall.so")    
+    lib.foo(1, 3)  
+    print('***finish***')  
+    ```
+    
 
 # Django,Flask and Tornado
 1. 
+
+常见传递信息方式：
+1. GET使用Query String
+    通过查询字符串在URL中传递参数
+2. POST提交数据
+    使用表单提交数据
+
+无状态：服务器无法知道2次请求之间的联系，通过cookie和session来判断
+有连接：基于TCP协议，面向连接的，需要3次握手、4次断开
+短链接：Http1.1之前是一个请求一个连接，Tcp创建销毁成本高;Http1.1之后支持keep-alive，默认开启，一个连接打开后，会保持一段时间(可设置),减轻服务器压力
+
+WSGI:
+![WSGI](Image/WSGI.jpg)
+
+# Jenkins
+1. 软件开发生命周期
+    
+    又叫SDLC(Software Development Life Cycle), 集合计划、开发、测试和部署的过程。
+    1. 需求分析
+    2. 设计
+    3. 实现
+    4. 测试
+    5. 维护
+2. 产品发布流程
+
+    产品设计成型 -> 开发人员开发代码 -> 测试人员测试功能 -> 运维人员发布上线
+    - 持续集成(CI)
+    - 持续交付(Continuous Delivery)
+    - 持续部署(continuous deployment)
+   
+3. 敏捷开发
+    - 核心：迭代开发与增量开发
+        - 迭代开发：拆分大周期为小周期
+        - 增量开发：每个版本都要增加一个用户可以感知的完整功能。按照新增功能来划分迭代
+    
