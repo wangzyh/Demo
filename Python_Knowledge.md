@@ -1,79 +1,4 @@
-# summary
-1. 解决问题的效率，跟空间的利用效率有关
-2. 解决问题的效率，跟算法的巧妙程度有关
-
-
-## 线性表
-![线性表定义](course/DataStructure_ZhejiangUniversity/Data/2.1.jpg)
-
-## 树
-### 树的定义
-![树的定义](course/DataStructure_ZhejiangUniversity/Data/3.1.jpg)
-### 树的常用术语1
-![树的常用术语1](course/DataStructure_ZhejiangUniversity/Data/3.1.1.jpg)
-
-1. 二叉树
-- 二叉树的定义
-![二叉树的定义](course/DataStructure_ZhejiangUniversity/Data/3.2.1.jpg)
-- 特殊二叉树
-![特殊二叉树](course/DataStructure_ZhejiangUniversity/Data/3.2.2.jpg)
-- 二叉树的几个重要性质
-![二叉树的几个重要性质](course/DataStructure_ZhejiangUniversity/Data/3.2.3.jpg)
-- 二叉树的遍历
-    - 前序遍历
     ![二叉树的遍历-前序遍历](course/DataStructure_ZhejiangUniversity/Data/3.3.1.jpg)
-    - 中序遍历
-    ![二叉树的遍历-中序遍历](course/DataStructure_ZhejiangUniversity/Data/3.3.2.jpg)
-    - 后序遍历
-    ![二叉树的遍历-后序遍历](course/DataStructure_ZhejiangUniversity/Data/3.3.3.jpg)
-    - 中序遍历非递归遍历算法
-    ![中序遍历非递归遍历算法](course/DataStructure_ZhejiangUniversity/Data/3.3.4.jpg)
-    - 层序基本过程
-    ![层序基本过程](course/DataStructure_ZhejiangUniversity/Data/3.3.5.jpg)
-
-2. 二叉搜索树
-- 二叉搜索树的定义
-![二叉搜索树的定义](course/DataStructure_ZhejiangUniversity/Data/4.1.1.jpg)
-
-3. 平衡二叉树
-- 平衡二叉树的定义1
-![平衡二叉树的定义1](course/DataStructure_ZhejiangUniversity/Data/4.1.2.jpg)
-- 平衡二叉树的定义2
-![平衡二叉树的定义2](course/DataStructure_ZhejiangUniversity/Data/4.1.3.jpg)
-
-## 图(Graph)
-### 图定义
-![图](course/DataStructure_ZhejiangUniversity/Data/Graph.jpg)
-- 在程序中表示图
-![图的表示](course/DataStructure_ZhejiangUniversity/Data/图的表示.jpg)
-- **_邻接矩阵_** - 好处
-  - 直观，简单，好理解
-  - 方便检查任意一对顶点间是否存在边
-  - 方便找任一顶点的所有“邻接点”（有边直接相邻的顶点）
-  - 方便计算任一顶点的“度”（从该点出发的边数为“出度”，指向该点的边数为“入度”）
-    - 无向图：对应行（或列）非0元素的个数
-    - 有向图：对应行非0元素的个数是“出度”；对应列非0元素的个数是“入度”
-- 邻接矩阵 - 有什么不好
-  - 浪费空间 - 存稀疏图（点很多而边很少）有大量无效元素
-    - 对稠密图（特别是完全图）还是很合算的
-  - 浪费时间 - 统计稀疏图中一共多少条边
-- **_邻接表_**：G[N]为指针数组，对应矩阵每行一个链表，只存非0元素
-    - 对于网络，结构中要增加权重的域
-    - 一定要稀疏才合算
-  - 方便找任一顶点的所有“邻接点”
-    - 节约稀疏图的空间
-    - 需要N个头指针 + 2E个结点（每个结点至少两个域）
-    - 方便计算任一顶点的“度”？
-        - 对无向图： yes
-        - 对有向图： 只能计算“出度”；需要构造“逆邻接表”（存指向自己的边）来方便计算“入度”
-    - 方便检查任意一对顶点间是否存在边？
-        - No
-
-### 图的遍历
-- 深度优先搜索(Depth First Search, DFS)
-- 广度优先搜索(Breadth First Search, BFS)
-  
-  
 # Python
 0. **_Python Built-In modules_**:
    1. **Itertools**: https://docs.python.org/zh-cn/3/library/itertools.html
@@ -324,6 +249,29 @@
 2. 后台运行: &, 后台任务: job -l
 3. 
 
+# 网络
+1. TCP:
+    - 特性
+        1. 面向连接的、可靠的字节流服务
+        2. 仅有两方进行彼此通信, 广播和多播不能用于 TCP
+        3. 校验和，确认和重传机制来保证可靠传输
+        4. 给数据分节进行排序，并使用累积确认保证数据的顺序不变和非重复<br/>
+        **node**: TCP 并不能保证数据一定会被对方接收到，因为这是不可能的。
+           如果有可能，就把数据递送到接收方，否则就（通过*放弃重传*并且*中断连接*这一手段）通知用户。
+           因此准确说 TCP 也不是 *100% 可靠*的协议，它所能提供的是*数据的可靠递送*或*故障的可靠通知*。
+    - *三次握手*与*四次挥手*
+        1. 第一次握手(SYN=1, seq=x):
+           
+            客户端发送一个 TCP 的 SYN 标志位置1的包，指明客户端打算连接的服务器的端口，以及初始序号 X,保存在包头的序列号(Sequence Number)字段里。
+            发送完毕后，客户端进入 SYN_SEND 状态。
+           
+        2. 第二次握手(SYN=1, ACK=1, seq=y, ACKnum=x+1):
+    
+            服务器发回确认包(ACK)应答。即 SYN 标志位和 ACK 标志位均为1。
+            服务器端选择自己 ISN 序列号，放到 Seq 域里，
+            同时将确认序号(ACK)设置为客户的 ISN 加1，即X+1。 
+            发送完毕后，服务器端进入 SYN_RCVD 状态。
+
 # **Web编程** WSGI,Django,Flask and Tornado
 1. **C/S** and **B/S**
    - CS：客户端、服务器之间需要使用Socket，约定协议，版本（往往是用TCP或UDP），指定地址和端口。数据可以有一定格式，双方约定好
@@ -452,8 +400,6 @@
 6. Pytest并行执行: pytest-xdist: `pytest -n auto *.py` (Jenkins ?)
 7. 分布式测试: conductor: 基于socket
 
-
-
 ## Jenkins
 1. 软件开发生命周期
     
@@ -474,3 +420,82 @@
     - 核心：迭代开发与增量开发
         - 迭代开发：拆分大周期为小周期
         - 增量开发：每个版本都要增加一个用户可以感知的完整功能。按照新增功能来划分迭代
+    
+# 算法
+1. 分治法(递归): 将原问题分解为几个规模较小但是类似于原问题的子问题，递归求解这些子问题， 然后再合并这些问题的解来建立原问题的解
+    - 分解原问题为若干子问题，这些子问题是原问题的规模最小的实例
+    - 解决这些子问题，递归地求解这些子问题。当子问题的规模足够小，就可以直接求解 
+    - 合并这些子问题的解成原问题的解
+    
+## 数据结构
+## 线性表
+![线性表定义](course/DataStructure_ZhejiangUniversity/Data/2.1.jpg)
+
+## 树
+### 树的定义
+![树的定义](course/DataStructure_ZhejiangUniversity/Data/3.1.jpg)
+### 树的常用术语1
+![树的常用术语1](course/DataStructure_ZhejiangUniversity/Data/3.1.1.jpg)
+
+1. 二叉树
+- 二叉树的定义
+![二叉树的定义](course/DataStructure_ZhejiangUniversity/Data/3.2.1.jpg)
+- 特殊二叉树
+![特殊二叉树](course/DataStructure_ZhejiangUniversity/Data/3.2.2.jpg)
+- 二叉树的几个重要性质
+![二叉树的几个重要性质](course/DataStructure_ZhejiangUniversity/Data/3.2.3.jpg)
+- 二叉树的遍历
+    - 前序遍历
+    ![二叉树的遍历-前序遍历](course/DataStructure_ZhejiangUniversity/Data/3.3.1.jpg)
+    - 中序遍历
+    ![二叉树的遍历-中序遍历](course/DataStructure_ZhejiangUniversity/Data/3.3.2.jpg)
+    - 后序遍历
+    ![二叉树的遍历-后序遍历](course/DataStructure_ZhejiangUniversity/Data/3.3.3.jpg)
+    - 中序遍历非递归遍历算法
+    ![中序遍历非递归遍历算法](course/DataStructure_ZhejiangUniversity/Data/3.3.4.jpg)
+    - 层序基本过程
+    ![层序基本过程](course/DataStructure_ZhejiangUniversity/Data/3.3.5.jpg)
+
+2. 二叉搜索树
+- 二叉搜索树的定义
+![二叉搜索树的定义](course/DataStructure_ZhejiangUniversity/Data/4.1.1.jpg)
+
+3. 平衡二叉树
+- 平衡二叉树的定义1
+![平衡二叉树的定义1](course/DataStructure_ZhejiangUniversity/Data/4.1.2.jpg)
+- 平衡二叉树的定义2
+![平衡二叉树的定义2](course/DataStructure_ZhejiangUniversity/Data/4.1.3.jpg)
+
+## 图(Graph)
+### 图定义
+![图](course/DataStructure_ZhejiangUniversity/Data/Graph.jpg)
+- 在程序中表示图
+![图的表示](course/DataStructure_ZhejiangUniversity/Data/图的表示.jpg)
+- **_邻接矩阵_** - 好处
+  - 直观，简单，好理解
+  - 方便检查任意一对顶点间是否存在边
+  - 方便找任一顶点的所有“邻接点”（有边直接相邻的顶点）
+  - 方便计算任一顶点的“度”（从该点出发的边数为“出度”，指向该点的边数为“入度”）
+    - 无向图：对应行（或列）非0元素的个数
+    - 有向图：对应行非0元素的个数是“出度”；对应列非0元素的个数是“入度”
+- 邻接矩阵 - 有什么不好
+  - 浪费空间 - 存稀疏图（点很多而边很少）有大量无效元素
+    - 对稠密图（特别是完全图）还是很合算的
+  - 浪费时间 - 统计稀疏图中一共多少条边
+- **_邻接表_**：G[N]为指针数组，对应矩阵每行一个链表，只存非0元素
+    - 对于网络，结构中要增加权重的域
+    - 一定要稀疏才合算
+  - 方便找任一顶点的所有“邻接点”
+    - 节约稀疏图的空间
+    - 需要N个头指针 + 2E个结点（每个结点至少两个域）
+    - 方便计算任一顶点的“度”？
+        - 对无向图： yes
+        - 对有向图： 只能计算“出度”；需要构造“逆邻接表”（存指向自己的边）来方便计算“入度”
+    - 方便检查任意一对顶点间是否存在边？
+        - No
+
+### 图的遍历
+- 深度优先搜索(Depth First Search, DFS)
+- 广度优先搜索(Breadth First Search, BFS)
+
+
