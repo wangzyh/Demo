@@ -1,4 +1,3 @@
-    ![二叉树的遍历-前序遍历](course/DataStructure_ZhejiangUniversity/Data/3.3.1.jpg)
 # Python
 0. **_Python Built-In modules_**:
    1. **Itertools**: https://docs.python.org/zh-cn/3/library/itertools.html
