@@ -271,6 +271,13 @@
             同时将确认序号(ACK)设置为客户的 ISN 加1，即X+1。 
             发送完毕后，服务器端进入 SYN_RCVD 状态。
 
+# 数据库
+
+## MySQL
+1. 主从复制(Master-Slave)<br/>
+    Mysql的复制 Replication 是一个异步的复制过程，从一个 Mysql instace(我们称之为 Master)复制到另一个 Mysql instance(我们称之 Slave)。
+    在 Master 与 Slave 之间的实现整个复制过程主要由三个线程来完成，其中两个线程(Sql线程和IO线程)在 Slave 端，另外一个线程(IO线程)在 Master 端。
+
 # **Web编程** WSGI,Django,Flask and Tornado
 1. **C/S** and **B/S**
    - CS：客户端、服务器之间需要使用Socket，约定协议，版本（往往是用TCP或UDP），指定地址和端口。数据可以有一定格式，双方约定好
