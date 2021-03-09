@@ -68,6 +68,7 @@ def get_path(root: TreeNode) -> List:
     elif not root.left and not root.right:
         return [root.val]
     else:
+
         ll = get_path(root.left)
         rl = get_path(root.right)
         return [[root.val] + ([i] if isinstance(i, int) else i) for i in ll + rl]
