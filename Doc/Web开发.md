@@ -47,8 +47,8 @@
     - Web程序必须有一个可调用对象,且该可调用对象接收两个参数,返回一个可迭代对象：
         1. environ：字典,包含请求的所有信息
         2. start_response：在可调用对象中调用的函数,用来发起响应,参数包括状态码,headers等
-    ![WSGI](Image/WSGI.jpg)
-7. Django生命周期![Django life cycle](Image/DjangoLifeCycle.png)
+    ![WSGI](../Image/WSGI.jpg)
+7. Django生命周期![Django life cycle](../Image/DjangoLifeCycle.png)
     默认7个中间件
     
     
