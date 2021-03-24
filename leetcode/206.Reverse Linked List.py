@@ -35,10 +35,10 @@
 #  Follow up: A linked list can be reversed either iteratively or recursively. C
 # ould you implement both? 
 #  Related Topics Linked List 
-#  👍 6513 👎 123
+#  👍 6584 👎 125
 
 # region time
-# 2021-03-13 00:16:32
+# 2021-03-24 18:49:09
 # endregion
 
 # leetcode submit region begin(Prohibit modification and deletion)
@@ -47,24 +47,32 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-from linked_list import ListNode, stringToListNode
+from Debug.linked_list import ListNode, stringToListNode, prettyPrintLinkedList
 
 
 class Solution:
-    r = res = ListNode(0)
+    # r = res = ListNode(0)
 
     def reverseList(self, head: ListNode) -> ListNode:
-        if head.next:
-            self.reverseList(head.next)
-
-        self.res.next = head
-        self.res = self.res.next
-        return self.r.next
-
+        # queue = [head]
+        # while queue:
+        #     node = queue.pop(0)
+        #     if not node:
+        #         return node
+        #     self.reverseList(node.next)
+        #     self.res.next = ListNode(node.val)
+        #     self.res = self.res.next
+        # return self.r.next
+        if not head or not head.next:
+            return head
+        node = self.reverseList(head.next)
+        head.next.next = head
+        head.next = None
+        return node
 
 # leetcode submit region end(Prohibit modification and deletion)
 
 
 if __name__ == '__main__':
-    n = '123'
-    print(Solution().reverseList(stringToListNode(n)))
+    n = stringToListNode('12345')
+    prettyPrintLinkedList(Solution().reverseList(n))
