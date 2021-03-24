@@ -76,12 +76,54 @@ def get_path(root: TreeNode) -> List:
 
 # endregion
 
+# region 层序遍历 [[0],[1,2],[4,5]]
+def level_order(root: TreeNode) -> List[List[int]]:
+    if not root:
+        return []
+    res = []
+    queue = [root]
+    while queue:
+        r = []
+        n_q = []
+        for point in queue:
+            r.append(point.val)
+            if point.left:
+                n_q.append(point.left)
+            if point.right:
+                n_q.append(point.right)
+        res.append(r)
+        queue = n_q
+    return res
+
+
+# endregion
+
+# region 层序遍历 [0,1,2,4,5]
+def level_order2(root: TreeNode) -> List[int]:
+    if not root:
+        return []
+    res = []
+    queue = [root]
+    while queue:
+        next_q = []
+        for node in queue:
+            if node.left:
+                next_q.append(node.left)
+            if node.right:
+                next_q.append(node.right)
+            res.append(node.val)
+        queue = next_q
+    return res
+
+
+# endregion
 
 if __name__ == '__main__':
-    tree = '[4,2,6,1,3,null,null]'
+    tree = '[1,2,3,null,null,4,5]'
     root = stringToTreeNode(tree)
     # preorder(root)
     # midorder(root)
     # endorder(root)
     # graorder(root)
-    print(get_path(root))
+    # print(get_path(root))
+    print(level_order2(root))
