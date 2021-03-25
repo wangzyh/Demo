@@ -36,12 +36,26 @@ def rec_subset(nums, s):
     elif len(nums) == 1:
         return nums[0] == s
     elif nums[-1] > s:
-        return subset(nums[:-1], s)
+        return rec_subset(nums[:-1], s)
     else:
-        return bool(subset(nums[:-1], s - nums[-1]) or subset(nums[:-1], s))
+        return bool(rec_subset(nums[:-1], s - nums[-1]) or rec_subset(nums[:-1], s))
+
 
 def dp_subset(nums, s):
-    dp = []
+    dp = [[0 for _ in range(s)] for i in range(len(nums))]
+    for i in dp:
+        i[0] = True
+    for i in range(s):
+        dp[0][i] = False
+    dp[0][nums[0]] = True
+    for i in range(1, len(nums)):
+        for ss in range(1, s):
+            if nums[i] > ss:
+                dp[i][ss] = dp[i - 1][ss]
+            else:
+                dp[i][ss] = dp[i - 1][ss - nums[i]] or dp[i - 1][ss]
+    return dp[-1][-1]
+
 
 # endregion
 
@@ -49,5 +63,5 @@ if __name__ == '__main__':
     # print(rec_opt(nums, len(nums) - 1))
     # print(dp_opt(nums))
     nums = [1, 3, 4, 5, 6, 1, 4]
-    s = 23
-    print(rec_subset(nums, s))
+    s = 9
+    print(dp_subset(nums, s))
