@@ -1,7 +1,8 @@
+# region 1. 数字隔一个选一个，使结果最大 [1, 3, 4, 5, 6, 1, 4]
 nums = [1, 3, 4, 5, 6, 1, 4]
 
 
-# 递归 时间复杂度O(2**n)
+# 最佳方案 递归 时间复杂度O(2**n)
 def rec_opt(n, i):
     if i == 0:
         return n[0]
@@ -13,9 +14,7 @@ def rec_opt(n, i):
         return max(a, b)
 
 
-print(rec_opt(nums, len(nums) - 1))
-
-
+# 非递归
 def dp_opt(n):
     dp = [0 for _ in range(len(n))]
     dp[0] = n[0]
@@ -27,4 +26,28 @@ def dp_opt(n):
     return dp[-1]
 
 
-print(dp_opt(nums))
+# endregion
+
+# region 2. 存在路径使和等于结果 [1, 3, 4, 5, 6, 1, 4] add = 13
+# 递归
+def rec_subset(nums, s):
+    if s == 0:
+        return True
+    elif len(nums) == 1:
+        return nums[0] == s
+    elif nums[-1] > s:
+        return subset(nums[:-1], s)
+    else:
+        return bool(subset(nums[:-1], s - nums[-1]) or subset(nums[:-1], s))
+
+def dp_subset(nums, s):
+    dp = []
+
+# endregion
+
+if __name__ == '__main__':
+    # print(rec_opt(nums, len(nums) - 1))
+    # print(dp_opt(nums))
+    nums = [1, 3, 4, 5, 6, 1, 4]
+    s = 23
+    print(rec_subset(nums, s))
