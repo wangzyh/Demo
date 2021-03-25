@@ -1,3 +1,4 @@
+from collections import deque
 from typing import List
 
 from tree import stringToTreeNode, TreeNode
@@ -114,6 +115,69 @@ def level_order2(root: TreeNode) -> List[int]:
             res.append(node.val)
         queue = next_q
     return res
+
+
+# endregion
+
+# region 最浅深度
+def min_depth(self, root: TreeNode) -> int:
+    if not root:
+        return 0
+    queue = deque()
+    queue.append((root, 1))
+    while queue:
+        node, level = queue.popleft()
+        if not node.left and not node.right:
+            return level
+        if node.left:
+            queue.append((node.left, level + 1))
+        if node.right:
+            queue.append((node.right, level + 1))
+
+
+# endregion
+
+# region 堂兄弟节点判断
+def is_cousins(self, root: TreeNode, x: int, y: int) -> bool:
+    n = []
+    queue = [[root, 0, 0], ]
+    while queue:
+        n_q = []
+        if len(n) == 2:
+            break
+        for node, father, level in queue:
+            if node.val == x or (node.val == y):
+                n.append([father, level])
+            if node.left:
+                n_q.append([node.left, node.val, level + 1])
+            if node.right:
+                n_q.append([node.right, node.val, level + 1])
+        queue = n_q
+
+    return n[0][0] != n[1][0] and (n[0][1] == n[1][1])
+
+
+# endregion
+
+# region 镜像二叉树判断
+def is_symmetric(root: TreeNode) -> bool:
+    queue = [root]
+    while queue:
+        r = []
+        n_q = []
+        for node in queue:
+            if not node:
+                r.append(None)
+            else:
+                r.append(node.val)
+            if hasattr(node, 'left'):
+                n_q.append(node.left)
+            if hasattr(node, 'right'):
+                n_q.append(node.right)
+        queue = n_q
+        if r != r[::-1]:
+            return False
+    return True
 
 
 # endregion
