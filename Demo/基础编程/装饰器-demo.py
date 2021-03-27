@@ -1,3 +1,5 @@
+import time
+
 '''
 def func(funcx):
     print('正在装载1')
@@ -42,21 +44,39 @@ print('test return value is %s' % ret)
 '''
 
 
-# 带参数的装饰器
-def func_arg(arg):
-    def func(funcx):
-        def func_in():
-            print('---%s---' % arg)
-            funcx()
+# # 带参数的装饰器
+# def func_arg(arg):
+#     def func(funcx):
+#         def func_in():
+#             print('---%s---' % arg)
+#             funcx()
+#
+#         return func_in
+#
+#     return func
+#
+#
+# @func_arg('haha')
+# def test1():
+#     print('-------test1------')
+#
+#
+# test1()
 
-        return func_in
+# 每十秒调用一次
 
-    return func
+def time_wait(func):
+    def inner(*args, **kwargs):
+        time.sleep(10)
+        return func(*args, **kwargs)
+
+    return inner
 
 
-@func_arg('haha')
-def test1():
-    print('-------test1------')
+@time_wait
+def func():
+    print(time.time())
 
 
-test1()
+print(time.time())
+func()
