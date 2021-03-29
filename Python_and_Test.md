@@ -338,6 +338,10 @@
     heapq.heapify(nums)
     print([heapq.heappop(nums) for i in range(len(nums))])
     ```
+38. `lru_cache` 使用`functools`模块的`lur_cache`装饰器,可以缓存最多_maxsize_个此函数的调用结果,从而提高程序执行的效率,特别适合于耗时的函数。
+    参数maxsize为最多缓存的次数,如果为None,则无限制,设置为2n时,性能最佳 
+39. 
+
 
 # 测试
 1. 软件测试性: 
