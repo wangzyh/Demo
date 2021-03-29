@@ -2,7 +2,6 @@
 0. **_Python Built-In modules_**:
    1. **Itertools**: https://docs.python.org/zh-cn/3/library/itertools.html
    2. **collections**: https://docs.python.org/zh-cn/3/library/collections.html#module-collections
-
 1. 统计list中重复项个数:
     ```
     nums = [1,2,3,4,5,1,1,1,2,2,3]
@@ -176,7 +175,6 @@
     | 3**  | 重定向,需要进一步的操作以完成请求            |
     | 4**  | 客户端错误,请求包含语法错误或无法完成请求    |
     | 5**  | 服务器错误,服务器在处理请求的过程中发生了错误 |
-
 20. **前端、后端、数据库阐述web项目的性能优化**
     1. 前端优化
        - 减少http请求、例如制作精灵图
@@ -327,7 +325,10 @@
     heapq.heapify(nums)
     print([heapq.heappop(nums) for i in range(len(nums))])
     ```
-48. 
+48. `lru_cache` 使用`functools`模块的`lur_cache`装饰器,可以缓存最多_maxsize_个此函数的调用结果,从而提高程序执行的效率,特别适合于耗时的函数。
+    参数maxsize为最多缓存的次数,如果为None,则无限制,设置为2n时,性能最佳 
+49. 
+
 
 # 测试
 1. 软件测试性: 
@@ -402,7 +403,7 @@
         1. 基础封装层 BasePage
         2. PO页面对象层
         3. TestCase测试用例层
-10. 性能测试工具: Locust 
+10. 性能测试工具: Locust
 11. 在公司中实施并推广自动化测试
     1. 选择自动化测试框架, 演示demo
     2. 搭建自动化测试框架,在项目中逐步开展自动化

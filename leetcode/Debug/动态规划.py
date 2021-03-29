@@ -2,7 +2,7 @@
 nums = [1, 3, 4, 5, 6, 1, 4]
 
 
-# 最佳方案 递归 时间复杂度O(2**n)
+# 递归 时间复杂度O(2**n)
 def rec_opt(n, i):
     if i == 0:
         return n[0]
@@ -62,6 +62,6 @@ def dp_subset(nums, s):
 if __name__ == '__main__':
     # print(rec_opt(nums, len(nums) - 1))
     # print(dp_opt(nums))
-    nums = [1, 3, 4, 5, 6, 1, 4]
+    nums = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
     s = 9
-    print(dp_subset(nums, s))
+    print(dp_opt(nums))
