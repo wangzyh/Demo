@@ -22,7 +22,7 @@
    - ***多线程***,`threading.Thread()` or 重写threading.Thread类
      - `join`函数使得主线程等到子线程结束时才退出
      - 线程之间数据共享的, `threading.Lock()` 创建互斥锁
-        ```python3
+        ```
          # 创建锁
          mutex = threading.Lock()
          # 锁定
@@ -121,7 +121,7 @@
         4. 系统全局唯一管理
         5. 网站计数器
         6. 数据库配置, 数据库连接池
-        7. 应用程序的日志应用       
+        7. 应用程序的日志应用
 9. 不可变数据类型：数值型、字符串型string和元组tuple 可变数据类型：列表list、字典dict、集合set
 10. `filter()` 函数用于过滤序列, 参数一为函数,参数二为序列
 11. `a=(1,)` `b=(1)` `c=("1")` 分别是`tuple` `int` `str`
@@ -278,7 +278,7 @@
     - 浅拷贝:`b = a.copy()` a 和 b 是一个独立的对象,但他们的子对象还是指向统一对象（是引用）
     - 深拷贝: `b = copy.deepcopy(a)` a 和 b 完全拷贝了父对象及其子对象,两者是完全独立的
 39. 打乱一个排好序的list对象alist
-    ```python
+    ```
     alist = [1,2,3]
     import random
     random.shuffle(alist)
@@ -309,7 +309,7 @@
     如果指定了`as`子句, 会将上下文管理器中的`__enter__()`方法的返回值赋值给 `target(s)`, 它可以是单个变量也可以是用`()`括起来的元组
     - 自己实现上下文管理器要实现`__enter__()`和`__exit__()`方法
 45. json序列化时默认会将中文转为Unicode
-    ```python
+    ```
     import json
     a = json.dumps({'ddf': '你好'}, ensure_ascii=False)
     print(a) # {"aa": "你好"}
@@ -319,7 +319,7 @@
 46. Python内存办理:
     - Python内存池机制, Pymalloc机制
 47. 利用堆排序
-    ```python
+    ```
     import heapq
     nums = [9,8,7,6,5,4,3,2,1]
     heapq.heapify(nums)
