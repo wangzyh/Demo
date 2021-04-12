@@ -8,7 +8,19 @@
     2. 不可变序列: tuple, str, bytes
     ![UML类图](Image/可变序列与不可变序列.jpg)
     这个UML类图列举了`collections.abc`中的几个类(超类在左边，箭头从子类指向超类，斜体名称代表抽象类和抽象方法)
-    
+2. 元组 
+    1. 元组拆包：
+        - 使用`*`来处理剩下的元素(函数用`*args`来获取不确定数量的参数)
+        - 用`*`运算符把一个可迭代对象拆开作为函数的参数
+    2. 具名元组`collections.namedtuple`: 构建一个带字段名的元组和一个有名字的类
+        - `_fields` # 类属性 包含这个类所有字段名称的元组
+        - `_make()` # 类方法 _make()接受一个可迭代对象生成一个实例,作用和City(*data)一样
+        - `_asdict()`  # 实例方法 把具名元组以`collections.OrderedDict`的形式返回
+    3. 除了跟增减元素相关的方法之外, 元组支持列表的其他所有方法 (元组没有`__reversed__`方法)
+3. 切片
+    1. a:b:c 这种用法只能作为索引或者下标用在`[]`中来返回一个切片对象：slice(a, b, c). 对seq[start:stop:step] 进行求值的时候,Python 会调用`seq.__getitem__(slice(start, stop, step))`
+    2. 给切片命名 `data1=slice(start, stop, step), item[data1]`
+    3. 多维切片和省略: 自定义和扩展 `numpy.ndarray`
 1. **_Python Built-In modules_**:
    1. **Itertools**: https://docs.python.org/zh-cn/3/library/itertools.html
    2. **collections**: https://docs.python.org/zh-cn/3/library/collections.html#module-collections
@@ -103,7 +115,7 @@
             pass
       ```
    3. metaclass(元类,超类)
-       ```
+       ```python
         class Singleton(type):
             _instances = {}
             def __call__(cls, *args, **kwargs):
@@ -213,20 +225,6 @@
     - 悲观锁：拿数据的时候都认为别人会修改,所以每次在拿数据的时候都会上锁
     - 乐观锁：拿数据的时候都认为别人不会修改,所以不会上锁,但是在更新的时候会判断
 28. 如果做的是**国际化**软件,那么 _ 可能就不是一个理想的占位符,因为它也是 `gettext.gettext` 函数的常用别名
-29. 元组拆包：
-    - 使用`*`来处理剩下的元素 
-      ```
-        >>> a, b, *rest = range(5)
-        >>> a, b, rest
-        (0, 1, [2, 3, 4])
-        >>> a, b, *rest = range(3)
-        >>> a, b, rest
-        (0, 1, [2])
-        >>> a, b, *rest = range(2)
-        >>> a, b, rest
-        (0, 1, [])
-      ```
-30. **_切片_**: a:b:c 这种用法只能作为索引或者下标用在`[]`中来返回一个切片对象：slice(a, b, c). 对seq[start:stop:step] 进行求值的时候,Python 会调用`seq.__getitem__(slice(start, stop, step))`
 31. 如果在 a * n 这个语句中,序列 a 里的元素是对其他可变对象的引用的话,你就需要格外注意了,因为这个式子的结果可能
 会出乎意料。比如,你想用 `my_list = [[]] * 3` 来初始化一个由列表组成的列表,但是你得到的列表里包含的 3 个元素其实是 3
 个引用,而且这 3 个引用**指向的都是同一个列表**。这可能不是你想要的效果。
@@ -238,13 +236,13 @@
     1. C语言文件：pycall.c
     2. gcc编译生成动态库libpycall.so：gcc -o libpycall.so -shared -fPIC pycall.c.
     3. Python调用动态库文件：pycall.py
-    ```
-    import ctypes  
-    ll = ctypes.cdll.LoadLibrary   
-    lib = ll("./libpycall.so")    
-    lib.foo(1, 3)  
-    print('***finish***')  
-    ```
+```python
+import ctypes  
+ll = ctypes.cdll.LoadLibrary   
+lib = ll("./libpycall.so")    
+lib.foo(1, 3)  
+print('***finish***')  
+```
 34. Python is 与== 区别:
     - is 比较的是*ID*, a is b 相当于id(a)==id(b),id() 能够获取对象的内存地址
     - == 比较的是*值*
