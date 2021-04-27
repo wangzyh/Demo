@@ -324,12 +324,12 @@ print('***finish***')
 46. Python内存办理:
     - Python内存池机制, Pymalloc机制
 47. 利用堆排序
-    ```
-    import heapq
-    nums = [9,8,7,6,5,4,3,2,1]
-    heapq.heapify(nums)
-    print([heapq.heappop(nums) for i in range(len(nums))])
-    ```
+```python
+import heapq
+nums = [9,8,7,6,5,4,3,2,1]
+heapq.heapify(nums)
+print([heapq.heappop(nums) for i in range(len(nums))])
+```
 48. `lru_cache` 使用`functools`模块的`lur_cache`装饰器,可以缓存最多_maxsize_个此函数的调用结果,从而提高程序执行的效率,特别适合于耗时的函数。
     参数maxsize为最多缓存的次数,如果为None,则无限制,设置为2n时,性能最佳 
 49. [python字典](https://stackoverflow.com/questions/327311/how-are-pythons-built-in-dictionaries-implemented) 底层依靠哈希表实现, 使用开放寻址解决冲突. 字典本质上是一个散列表(总有空白元素的数组, python至少保证1/3的数组是空的)
@@ -344,26 +344,26 @@ print('***finish***')
     2. 支持通过 __eq__() 方法来检测相等性。
     3. 若 a == b 为真，则 hash(a) == hash(b) 也为真。
 50. 合并两个字典:
-    ```python
-    x = {'a': 1, 'b': 2}
-    y = {'b': 10, 'c': 11}
-    # python3.9
-    z = x | y
-    # python3.5+
-    z = {**x, **y}
-    # other
-    def merge_two_dicts(x, y):
-        z = x.copy()   
-        z.update(y)    
-        return z
-    print(z)
-    # {'a': 1, 'b': 10, 'c': 11}
-    ```
+```python
+x = {'a': 1, 'b': 2}
+y = {'b': 10, 'c': 11}
+# python3.9
+z = x | y
+# python3.5+
+z = {**x, **y}
+# other
+def merge_two_dicts(x, y):
+    z = x.copy()   
+    z.update(y)    
+    return z
+print(z)
+# {'a': 1, 'b': 10, 'c': 11}
+```
 51. [yield](http://dwz.date/eJqu) : 作用就是把一个函数变成一个generator(生成器)
-    ```python
-    (i%2 for i in range(10))
-    # generator
-    ```
+```python
+(i%2 for i in range(10))
+# generator
+```
 
 
 # 测试
