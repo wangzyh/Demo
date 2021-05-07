@@ -283,7 +283,7 @@ print('***finish***')
     - 浅拷贝:`b = a.copy()` a 和 b 是一个独立的对象,但他们的子对象还是指向统一对象(是引用)
     - 深拷贝: `b = copy.deepcopy(a)` a 和 b 完全拷贝了父对象及其子对象,两者是完全独立的
 39. 打乱一个排好序的list对象alist
-    ```
+    ```python
     alist = [1,2,3]
     import random
     random.shuffle(alist)
@@ -291,12 +291,12 @@ print('***finish***')
 40. Python递归的最大层数
     - 998
 41. **列表推导式**和**生成器表达式**
-    ```python
-    [i%2 for i in range(10)]
-    # [0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
-    (i%2 for i in range(10))
-    # generator
-    ```
+```python
+[i%2 for i in range(10)]
+# [0, 1, 0, 1, 0, 1, 0, 1, 0, 1]
+(i%2 for i in range(10))
+# generator
+```
 42. **闭包**
     - 闭包函数: inner函数定义在outer函数的内部, 并且outer函数的返回值是inner函数
     - inner函数必须访问outer函数的变量
@@ -314,11 +314,11 @@ print('***finish***')
     如果指定了`as`子句, 会将上下文管理器中的`__enter__()`方法的返回值赋值给 `target(s)`, 它可以是单个变量也可以是用`()`括起来的元组
     - 自己实现上下文管理器要实现`__enter__()`和`__exit__()`方法
 45. json序列化时默认会将中文转为Unicode
-    ```
-    import json
-    a = json.dumps({'ddf': '你好'}, ensure_ascii=False)
-    print(a) # {"aa": "你好"}
-    ```
+```python
+import json
+a = json.dumps({'ddf': '你好'}, ensure_ascii=False)
+print(a) # {"aa": "你好"}
+```
 45. 邮箱正则:
     `r'^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$'`
 46. Python内存办理:
